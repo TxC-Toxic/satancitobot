@@ -674,6 +674,7 @@ Grupo oficial : https://chat.whatsapp.com/JVIT7Ei0lYsDSbcf27U10G
 ├ *${prefix}unmute*
 ├ *${prefix}delete*
 ├ *${prefix}setfake*
+├ *${prefix}welcome 1/0*
 ├ *${prefix}setfakeimg*
 ├ *${prefix}setprefix*
 ├ *${prefix}setthumb*
