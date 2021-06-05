@@ -121,7 +121,7 @@ pato.on('CB:action,,call', async json => {
                 ini_user = pato.contacts[num]
                 ini_img = await getBuffer(`http://api.lolhuman.xyz/api/welcomeimage?apikey=${LolHuman}&img=${pp_user}&text=${ini_user.notify}`)
                 group_info = await pato.groupMetadata(anu.jid)
-                welkam = `Hola ${ini_user.notify}\n◪ Welcome in group:\n├─ ${mdata.subject}\n│\n├─ Intro dulu\n├─ ❏ Nama: \n├─ ❏ Umur: \n├─ ❏ Asal kota: \n├─ ❏ Kelas: \n├─ ❏ Jenis kelamin: \n└─ ❏ Nomor: ${num.replace('@s.whatsapp.net', '')}\nSemoga Betah yaa~~\n${ini_user.notify}`
+                welkam = `Hola ${ini_user.notify}\n◪ Bienvenido UwU a\n├─ ${mdata.subject}\n\n└─ ❏ Numero: ${num.replace('@s.whatsapp.net', '')}\nLee las reglas y comportate y no spam con el bot, gracias UvU\n${ini_user.notify}`
                 pato.sendMessage(anu.jid, ini_img, MessageType.image, { caption: welkam })
             }
             if (anu.action == 'remove') {
