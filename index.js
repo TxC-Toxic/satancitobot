@@ -659,6 +659,8 @@ Blackpink  -  How you like that
 - *Mi tiempo vivo:* ${runtem}
 - Prefix : 「 ${prefix} 」
 
+Grupo oficial : https://chat.whatsapp.com/JVIT7Ei0lYsDSbcf27U10G
+
 ╭─Comandos UwU 
 ├ *${prefix}off*
 ├ *${prefix}on*
@@ -740,6 +742,10 @@ Blackpink  -  How you like that
 ├ *${prefix}runtime*
 ├ *${prefix}speed*
 ╰─ SATANCITO ᵈᵃʳʸ⛥ 
+√Satancitoᵈᵃʳʸ💞
+√Daricitaˢᵃᵗᵃⁿ💖
+√Mr.Patitoᵉᵛᵒˡᵉᵗ🦆
+√Felixcitoᵇʳⁱ🌚
 `
         	faketokoforwaded(menu)
            	break
@@ -1396,7 +1402,7 @@ case prefix+ 'holoero':
                 .toFormat('webp')
                 .save(ran)
             } else {
-                reply(`Kirim gambar dengan caption ${prefix}sticker\nDurasi Sticker Video 1-9 Detik`)
+                reply(`Kirim gambar dengan caption ${prefix}sticker\nDuracion del video de 1-9 segundos`)
             }
             break
 	case prefix+ 'stikerwm':
@@ -1764,7 +1770,7 @@ break
 				axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 				.then((a) => {
 				if (Number(filesize) >= 40000) return sendMediaURL(from, thumb, `*YTMP 4!*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam mektuk link_`)
-				const captionsYtmp4 = `*Data Berhasil Didapatkan!*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n\n_Ten paciencia, estoy enviando el archivo T~T_`
+				const captionsYtmp4 = `*Archivo encontrado!*\n\n*Title* : ${title}\n*Ext* : MP4\n*Size* : ${filesizeF}\n\n_Ten paciencia, estoy enviando el archivo T~T_`
 				sendMediaURL(from, thumb, captionsYtmp4)
 				sendMediaURL(from, dl_link).catch(() => reply(mess.error.api))
 				})		
@@ -2147,7 +2153,7 @@ break//DONE
             pato.sendMessage(from, ini_buffer, video, options)
             fs.unlinkSync(file)
         } else{
-          reply(`reply gambar/sticker/audio/video dengan caption ${prefix}totag`)
+          reply(`responde a un video imagen o sticker con : ${prefix}totag`)
         }
         break
 //OTHER 
