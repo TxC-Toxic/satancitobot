@@ -659,7 +659,7 @@ Blackpink  -  How you like that
 - *Mi tiempo vivo:* ${runtem}
 - Prefix : 「 ${prefix} 」
 
-Grupo oficial : https://chat.whatsapp.com/JVIT7Ei0lYsDSbcf27U10G
+Grupo oficial : https://chat.whatsapp.com/J72bXsh3gRxKufBl8iikDO
 
 ╭─Comandos UwU 
 ├ *${prefix}off*
@@ -743,6 +743,7 @@ Grupo oficial : https://chat.whatsapp.com/JVIT7Ei0lYsDSbcf27U10G
 ├ *${prefix}runtime*
 ├ *${prefix}speed*
 ╰─ SATANCITO ᵈᵃʳʸ⛥ 
+√Eli.Hopeˢᵃᵗᵃⁿ💞
 √Satancitoᵈᵃʳʸ💞
 √Daricitaˢᵃᵗᵃⁿ💖
 √Mr.Patitoᵉᵛᵒˡᵉᵗ🦆
