@@ -83,6 +83,7 @@ alasan = '-'
 //=================================================//
 async function starts() {
 	const pato = new WAConnection()
+	pato.version = [2, 2119, 6]
 	pato.logger.level = 'warn'
 	console.log('>', '[',color('INGFO','blue'),']','Menglogin kawan...')
 	pato.on('qr', () => {
